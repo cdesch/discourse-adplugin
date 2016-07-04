@@ -19,6 +19,10 @@ export default {
         return this.isNthPost(parseInt(siteSettings.amazon_nth_post_code));
       }.property('post_number'),
 
+      postSpecificCountRevive: function() {
+        return this.isNthPost(parseInt(siteSettings.revive_nth_post_code));
+      }.property('post_number'),
+
       isNthPost: function(n) {
         if (n && n > 0) {
           return (this.get('post_number') % n) === 0;

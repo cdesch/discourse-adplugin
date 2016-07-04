@@ -87,4 +87,44 @@ register_css <<CSS
   }
 }
 
+
+
+.revive-ads {
+  padding: 3px 0;
+  margin-bottom: 10px;
+  clear: both;
+}
+
+.revive-ads  .adsense-unit {
+  margin: 0 auto;
+}
+
+.revive-ads .revive-ads-label {
+  width: 728px;
+  margin: 0 auto;
+}
+
+.revive-ads .revive-ads-label h2 {
+  margin: 4px 0 !important;
+  color: #858a8c;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.revive-ads .revive-ads-content {
+  margin: 0 auto;
+}
+
+
 CSS
+
+
+
+after_initialize do
+  CurrentUserSerializer.class_eval do
+    attributes :badges
+  end
+end
+

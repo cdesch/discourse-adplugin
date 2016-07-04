@@ -33,6 +33,7 @@ en:
     dfp_target_post_bottom_value_code: "Input custom targeting values - inventory Level"
 
     adsense_publisher_code: "Input your publisher ID"
+    adsense_through_badge: 'Hides ads to users with this badge.'
     adsense_through_trust_level: "Show your ads to users based on trust levels. Users with trust level higher than this value will not see ads."
     adsense_topic_list_top_code: "Enter code of the ad unit to display at topic list top location. This is the number assigned to the ad unit, not the JavaScript code."
     adsense_mobile_topic_list_top_code: "Enter code of the ad unit to display mobile ads at topic list top location. This is the number assigned to the ad unit, not the JavaScript code."
@@ -47,6 +48,24 @@ en:
     adsense_mobile_post_bottom_code: "Enter code of the ad unit to display mobile ads at post bottom location. This is the number assigned to the ad unit, not the JavaScript code."
     adsense_post_bottom_ad_sizes: "Choose your ad sizes"
     adsense_nth_post_code: "Show an ad after every N posts, where N is this value."
+
+    revive_publisher_code: "Input your publisher ID"
+    revive_through_badge: 'Hides ads to users with this badge.'
+    revive_through_trust_level: "Show your ads to users based on trust levels. Users with trust level higher than this value will not see ads."
+    revive_topic_list_top_code: "Enter code of the ad unit to display at topic list top location. This is the number assigned to the ad unit, not the JavaScript code."
+    revive_mobile_topic_list_top_code: "Enter code of the ad unit to display mobile ads at topic list top location. This is the number assigned to the ad unit, not the JavaScript code."
+    revive_topic_list_top_ad_sizes: "Choose your ad sizes"
+    revive_topic_above_post_stream_code: "Enter code of the ad unit to display at topic above post stream location. This is the number assigned to the ad unit, not the JavaScript code."
+    revive_mobile_topic_above_post_stream_code: "Enter code of the ad unit to display mobile ads at topic above post stream location. This is the number assigned to the ad unit, not the JavaScript code."
+    revive_topic_above_post_stream_ad_sizes: "Choose your ad sizes"
+    revive_topic_above_suggested_code: "Enter code of the ad unit to display at topic above suggested location. This is the number assigned to the ad unit, not the JavaScript code."
+    revive_mobile_topic_above_suggested_code: "Enter code of the ad unit to display mobile ads at topic above suggested location. This is the number assigned to the ad unit, not the JavaScript code."
+    revive_topic_above_suggested_ad_sizes: "Choose your ad sizes"
+    revive_post_bottom_code: "Enter code of the ad unit to display ads at post bottom location. This is the number assigned to the ad unit, not the JavaScript code."
+    revive_mobile_post_bottom_code: "Enter code of the ad unit to display mobile ads at post bottom location. This is the number assigned to the ad unit, not the JavaScript code."
+    revive_post_bottom_ad_sizes: "Choose your ad sizes"
+    revive_nth_post_code: "Show an ad after every N posts, where N is this value."
+
     amazon_through_trust_level: "Show your ads to users based on trust levels. Users with trust level higher than this value will not see ads."
     amazon_topic_list_top_src_code: "Enter src code to display at topic list top location"
     amazon_topic_list_top_ad_width_code: "Input your ad width"
