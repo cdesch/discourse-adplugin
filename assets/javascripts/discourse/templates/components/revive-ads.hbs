@@ -9,7 +9,7 @@
             *
             */-->
 
-          <ins data-revive-zoneid="11" data-revive-id="e7c88f2181ffd60e8bf95b1b0d3813d4"></ins>
+          <ins data-revive-zoneid="{{ad_mobile_zone_id}}" data-revive-id="{{ad_mobile_code}}"></ins>
           <script async src="{{publisher_url}}"></script>
       </div>
   {{else}}
@@ -22,8 +22,10 @@
             *
             */-->
 
-          <ins data-revive-zoneid="11" data-revive-id="e7c88f2181ffd60e8bf95b1b0d3813d4"></ins>
-          <script async src="{{publisher_url}}"></script>
+          <ins data-revive-zoneid="{{ad_zone_id}}" data-revive-id="{{ad_code}}"></ins>
+          <script>
+              (asyncjs = window.asyncjs || []).push({});
+          </script>
       </div>
   {{/if}}
 {{/if}}
