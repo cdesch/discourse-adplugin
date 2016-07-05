@@ -252,6 +252,10 @@ dfp_plugin:
     client: true
     default: 2
     enum: 'TrustLevelSetting'
+  dfp_through_badge:
+    client: true
+    default: ''
+    type: list
   dfp_topic_list_top_code:
     client: true
     default: ''
@@ -471,6 +475,10 @@ amazon_plugin:
     client: true
     default: 2
     enum: 'TrustLevelSetting'
+  amazon_through_badge:
+    client: true
+    default: ''
+    type: list
   amazon_topic_list_top_src_code:
     client: true
     default: ''

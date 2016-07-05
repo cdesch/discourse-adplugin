@@ -2,7 +2,7 @@ en:
   site_settings:
     dfp_publisher_id: "Input your publisher ID"
     dfp_through_trust_level: "Show your ads to users based on trust levels. Users with trust level higher than this value will not see ads."
-
+    dfp_through_badge: 'Hides ads to users with this badge.'
     dfp_topic_list_top_code: "Enter the code of the ad unit to display above topic lists. This is the short code (max 100 chars) of the ad unit, not the JavaScript code."
     dfp_topic_list_top_ad_sizes: "Choose your ad size for the ad unit above topic lists."
     dfp_mobile_topic_list_top_code: "Enter the code of the ad unit to display above topic lists on mobile view. This is the short code (max 100 chars) of the ad unit, not the JavaScript code."
@@ -76,6 +76,7 @@ en:
     revive_nth_post_zone_id: "Show an ad after every N posts, where N is this value."
 
     amazon_through_trust_level: "Show your ads to users based on trust levels. Users with trust level higher than this value will not see ads."
+    amazon_through_badge: 'Hides ads to users with this badge.'
     amazon_topic_list_top_src_code: "Enter src code to display at topic list top location"
     amazon_topic_list_top_ad_width_code: "Input your ad width"
     amazon_topic_list_top_ad_height_code: "Input your ad height"
